@@ -19,3 +19,4 @@ export const getUsers = (options = {}) => {
 };
 
 export const postUser = (values) => httpClient.post("/users", values);
+export const postGroup = (values) => httpClient.post("/groups", values);
